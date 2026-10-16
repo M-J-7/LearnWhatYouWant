@@ -1,0 +1,30 @@
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+secrets.json
+
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# Runtime user uploads (keep the folder only)
+backend/LMS.API/Uploads/*
+!backend/LMS.API/Uploads/.gitkeep
